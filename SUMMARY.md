@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Generative AI in ASPICE](README.md)
+* [Generative AI in ASPICE](generative-ai-in-aspice.md)
