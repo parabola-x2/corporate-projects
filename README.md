@@ -28,11 +28,8 @@ I utilized Power BI and QLIK to automate the integration of new data and generat
 
 <figure><img src=".gitbook/assets/GenAI in ASPICE.png" alt=""><figcaption></figcaption></figure>
 
-
-
-My inspiration was drawn from John Kotter's 8 Principles of Change for executing innovation and organizational transformation.&#x20;
+Inspired by John Kotter's 8 Principles of Change for executing innovation and organizational transformation.
 
 Further the strategy incorporated a three-pillar framework—encompassing political, technical, and training elements—designed to advance these pillars in parallel to maximize the impact of organizational change.
 
 <figure><img src=".gitbook/assets/john kotter.png" alt="" width="375"><figcaption></figcaption></figure>
-
