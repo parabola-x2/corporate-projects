@@ -4,7 +4,7 @@ Award nominated construction of a smart parking detection and activation system 
 
 The purpose of the project is to describe two tasks:
 
-* eFind ( Find and Charge ) : how a user can reserve a parking spot and get authenticated automatically when he reaches the parking spot.&#x20;
+* eFind ( Find and Charge ) : how a user can reserve a parking spot and get authenticated automatically when he reaches the parking spot.
 * iCurb: the methods to install an iCurb at events and in parking garages.
 
 ```
@@ -16,18 +16,18 @@ The purpose of the project is to describe two tasks:
 
 ```
 
-Sensor Box consisting of&#x20;
+Sensor Box consisting of
 
 * Parking detection and LED controller module
-* Relay module to start / stop charging unit and authentication module using bluetooth&#x20;
+* Relay module to start / stop charging unit and authentication module using bluetooth
 * Zigbee module to communicate with a gateway
-* Smart Phone App to request starting and stopping the charging unit.&#x20;
+* Smart Phone App to request starting and stopping the charging unit.
 
 Parking detection and LED controller module
 
 <figure><img src=".gitbook/assets/icurb/die_sensorik_und_led_mit_bordstein.jpg" alt=""><figcaption></figcaption></figure>
 
-Relay module to start / stop charging unit and authentication module using bluetooth&#x20;
+Relay module to start / stop charging unit and authentication module using bluetooth
 
 <figure><img src=".gitbook/assets/icurb/authentifizierung.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -35,32 +35,32 @@ Zigbee module to communicate with a gateway
 
 <figure><img src=".gitbook/assets/icurb/kommunikations_technik_icurb.jpg" alt=""><figcaption></figcaption></figure>
 
-Smart Phone App to request starting and stopping the charging unit.&#x20;
+Smart Phone App to request starting and stopping the charging unit.
 
 <figure><img src=".gitbook/assets/icurb/smart_phone_app_icurb_zu_bedienen.jpg" alt=""><figcaption></figcaption></figure>
 
 The prototype involves a
 
-* A Smart Phone app&#x20;
+* A Smart Phone app
   * to interact with the bluetooth module integrated in the infrastructure.
   * to query the parking garages and get the available parking spots for the electric vehicles
 * A On Board Unit integrated in the car
   * with a bluetooth module to interact with the bluetooth module integrated in the infrastructure
-  * that can query the parking garages to get the available parking spots for the electric vehicles.&#x20;
+  * that can query the parking garages to get the available parking spots for the electric vehicles.
 * A LED Module embedded in the charging unit
   * To display the current situation of the parking spot.
   * RED indicates the parking spot is already reserved.
-  * GREEN indicates the parking spot is not reserved and can be occupied.&#x20;
+  * GREEN indicates the parking spot is not reserved and can be occupied.
   * BLUE indicates an ongoing authentication is taking place as the car reaches the parking spot.
-  * BREATHING RED indicates that the CAR is being charged.&#x20;
+  * BREATHING RED indicates that the CAR is being charged.
 * Bluetooth Module embedded in the charging unit
   * To authenticate an incoming user with his Bluetooth MAC Address.
-  * To be able to get the status of the charging unit over the bluetooth communication.&#x20;
-* Magnetic sensor embedded in the charging unit ◦&#x20;
-  * To be able to detect the presence of the car in the vicinity.&#x20;
+  * To be able to get the status of the charging unit over the bluetooth communication.
+* Magnetic sensor embedded in the charging unit ◦
+  * To be able to detect the presence of the car in the vicinity.
 * Relay to start the charging process after a successful authentication.
 * Zigbee communication module
-  * The zigbee communication module interacts with the parking garage server and sends data of the occupancy of the parking spots.&#x20;
+  * The zigbee communication module interacts with the parking garage server and sends data of the occupancy of the parking spots.
   * Kommunikation zwischen verschiedenen iCurbs
 
 Wie man hier sieht, einzelen icurb kommunizieren mit einanderen und übermitteln Ihre aktuelle Status ( Energie, Parkplatzbelegung etc. )
@@ -85,12 +85,13 @@ The prototype of the charging unit involves • Upper part of the curb ◦ conta
 
 The iCurb has a potential to provide robust channels to provide the required infrastructure of charging units. The projects can be applied 1. during the organization of big events with adhoc requirement of charging units. 2. Integrate the curbs already during the construction of new parking garages.
 
-Einfache Installation bei Veranstaltungen: Skizze für die Installation des iCurbs bei Veranstaltungen. Man sieht ganz rechts eine Gateway.
+Einfache Installation bei Veranstaltungen: Skizze für die Installation des iCurbs bei Veranstaltungen. Man sieht ganz rechts eine Gateway
 
-<figure><img src=".gitbook/assets/icurb/Overview.JPG" alt=""><figcaption></figcaption></figure>
-<figure><img src=".gitbook/assets/icurb/Overview_blur1.jpg" alt=""><figcaption></figcaption></figure>
-<figure><img src=".gitbook/assets/icurb/Overview_blur2.jpg" alt=""><figcaption></figcaption></figure>
-<figure><img src=".gitbook/assets/icurb/Overview_blur2_desc.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/icurb/Overview.JPG" alt=""><figcaption><p>Electric charging station</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/icurb/Overview_blur1.jpg" alt=""><figcaption><p>Blue labels denote embedded electronic units </p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/icurb/Overview_blur2_desc.jpg" alt=""><figcaption><p>Red dotted line denotes communication with the charging unit</p></figcaption></figure>
 
 IKT for finding and reserving a parking place from a smart phone or an OBU: Ein Button in Autoradio iCurbs zu finden ( mögliche Industrieprojekt )
 
@@ -110,9 +111,9 @@ Abstract: Source: US2003179107A A Smart Parking Meter System makes it possible t
 
 ***
 
-&#x20; Title: Smart parking advisor
+Title: Smart parking advisor
 
-Abstract: Source: US6426708B A parking advisor images scenes of a parking area and identifies free spaces using image processing techniques. The advisor then makes recommendations as to which areas a driver should go based on the locations of free spaces. One way of outputting the recommendations is to display them on a terminal at an entry gate or to print them on a ticket, receipt, or other piece of paper. An entry terminal may be provided to allow the user to enter a preferred destination served by the parking area. For example, the destination could be a particular airline terminal or department store. The advisor may select, among the free spaces identified, those that are most convenient to the destination and provide corresponding directions.   Title: Smart parking meter system Abstract: Source: US2003179107A A Smart Parking Meter System makes it possible to track whether or not a vehicle occupies parking meter stalls and whether or not the time has expired. The system uses a wireless communication protocol which may be of the type known under the trade mark "Bluetooth" and provides the portability of embedded systems and the convenience of personal digital assistants with the powers of the C and Java programming languages. There are two main components to the Smart Parking Meter System, the handheld device, or the PDA, and the actual parking meters. Each device has the Smart Parking Meter System application installed in it, as well as the wireless modules, such as Bluetooth to use as a communication medium. The parking meters also have a motion sensor to detect any movement within it view range. The handheld device is able to extract all the parking states for each parking meter within a block or street depending on user configuration of system.
+Abstract: Source: US6426708B A parking advisor images scenes of a parking area and identifies free spaces using image processing techniques. The advisor then makes recommendations as to which areas a driver should go based on the locations of free spaces. One way of outputting the recommendations is to display them on a terminal at an entry gate or to print them on a ticket, receipt, or other piece of paper. An entry terminal may be provided to allow the user to enter a preferred destination served by the parking area. For example, the destination could be a particular airline terminal or department store. The advisor may select, among the free spaces identified, those that are most convenient to the destination and provide corresponding directions. Title: Smart parking meter system Abstract: Source: US2003179107A A Smart Parking Meter System makes it possible to track whether or not a vehicle occupies parking meter stalls and whether or not the time has expired. The system uses a wireless communication protocol which may be of the type known under the trade mark "Bluetooth" and provides the portability of embedded systems and the convenience of personal digital assistants with the powers of the C and Java programming languages. There are two main components to the Smart Parking Meter System, the handheld device, or the PDA, and the actual parking meters. Each device has the Smart Parking Meter System application installed in it, as well as the wireless modules, such as Bluetooth to use as a communication medium. The parking meters also have a motion sensor to detect any movement within it view range. The handheld device is able to extract all the parking states for each parking meter within a block or street depending on user configuration of system.
 
 ```
 Title:
@@ -152,19 +153,19 @@ STEERING CONTROL METHOD OF A VEHICLE FOR ACTIVATING THE SPAS MODE AND THE MDPS M
 
 Title: The Intelligent Parking ballot box (AK-P702) (Machine translation)
 
-Abstract: Source: CN301813856S   Machine translation: The (Claim 1). The application design patent the name of the ballot boxes for the intelligent parking (AK-P702). (2) apply smart parking ballot box (AK-P702) is mainly used in the field of hotels, office buildings, shopping malls, theater facilities, airports, stadiums and exhibition centers, commercial pay parking, the residential area, as well as road crossing the parking lot. 3 of this application in the main view can show that the design points. 4 main design features of this application is the main view, rear view, as well as left and right view of the appearance of the shape.
+Abstract: Source: CN301813856S Machine translation: The (Claim 1). The application design patent the name of the ballot boxes for the intelligent parking (AK-P702). (2) apply smart parking ballot box (AK-P702) is mainly used in the field of hotels, office buildings, shopping malls, theater facilities, airports, stadiums and exhibition centers, commercial pay parking, the residential area, as well as road crossing the parking lot. 3 of this application in the main view can show that the design points. 4 main design features of this application is the main view, rear view, as well as left and right view of the appearance of the shape.
 
 Title: The Intelligent Parking ballot box (AK-the P701) (Machine translation)
 
-Abstract: Source: CN301813857S   Machine translation: The (Claim 1). The application design patent the name of the ballot boxes for the intelligent parking (AK-the P701). (2) apply smart parking ballot box (AK-the P701) is mainly used in areas of the parking lot of hotels, office buildings, shopping malls, theater facilities, airports, stadium and exhibition center commercial pay parking or district, and each road crossing. 3 of this application in the main view can show that the design points. 4 main design features of this application is the main view, rear view, as well as left and right view of the appearance of the shape.
+Abstract: Source: CN301813857S Machine translation: The (Claim 1). The application design patent the name of the ballot boxes for the intelligent parking (AK-the P701). (2) apply smart parking ballot box (AK-the P701) is mainly used in areas of the parking lot of hotels, office buildings, shopping malls, theater facilities, airports, stadium and exhibition center commercial pay parking or district, and each road crossing. 3 of this application in the main view can show that the design points. 4 main design features of this application is the main view, rear view, as well as left and right view of the appearance of the shape.
 
-&#x20; Title: Smart parking card
+Title: Smart parking card
 
-Abstract: Source: TWM422137Y   Machine translation: The invention relates to reveal a smart parking cards, to indicate that parking in the parking lot, comprising: a ticket information and parking information area. Flora of where the ticket information for the posted flow numbers of the good smart parking cards as well as vehicles entering the parking lot of the time, and other related information; information area of the parking spaces are marked with alphanumeric and / or graphics plurality of better parking space, and Department of such a better parking space marked with a parking ease, the convenience of motorists directly in accordance with the information of the parking spaces on the information in the good smart parking cards to quickly find the better parking space, and leave with the good marked on the smart parking cards, quickly find the vehicle parked in the parking lot, speed up the parking lot traffic and the avoid parking congestion circumstances.
+Abstract: Source: TWM422137Y Machine translation: The invention relates to reveal a smart parking cards, to indicate that parking in the parking lot, comprising: a ticket information and parking information area. Flora of where the ticket information for the posted flow numbers of the good smart parking cards as well as vehicles entering the parking lot of the time, and other related information; information area of the parking spaces are marked with alphanumeric and / or graphics plurality of better parking space, and Department of such a better parking space marked with a parking ease, the convenience of motorists directly in accordance with the information of the parking spaces on the information in the good smart parking cards to quickly find the better parking space, and leave with the good marked on the smart parking cards, quickly find the vehicle parked in the parking lot, speed up the parking lot traffic and the avoid parking congestion circumstances.
 
 Title: Intelligent Parking ballot box (AK-P703) (Machine translation)
 
-Abstract: Source: CN301838835S   Machine translation: The (Claim 1) 1 of the application for design patent the name of the ballot boxes for the intelligent parking (AK-P703). (2) apply smart parking ballot box (AK-P703) is mainly used in the field of hotels, office buildings, shopping malls, theater facilities, airports, stadiums and exhibition centers, commercial pay parking, the residential area, as well as road crossing the parking lot. 3 of this application in the main view can show that the design points. 4 main design features of this application is the main view, rear view, as well as left and right view of the appearance of the shape.
+Abstract: Source: CN301838835S Machine translation: The (Claim 1) 1 of the application for design patent the name of the ballot boxes for the intelligent parking (AK-P703). (2) apply smart parking ballot box (AK-P703) is mainly used in the field of hotels, office buildings, shopping malls, theater facilities, airports, stadiums and exhibition centers, commercial pay parking, the residential area, as well as road crossing the parking lot. 3 of this application in the main view can show that the design points. 4 main design features of this application is the main view, rear view, as well as left and right view of the appearance of the shape.
 
 Title: NAVIGATION DEVICE WITH SMART PARKING AREA GUIDING FUNCTION
 
@@ -182,7 +183,7 @@ Title: COMPUTER-IMPLEMENTED SYSTEM AND METHOD FOR MANAGING MOTOR VEHICLE PARKING
 
 Abstract: Source: US2012092190A A computer-implemented system and method for managing motor vehicle parking reservations is provided. Motor vehicle parking spaces are managed through a server. Smart parking devices physically proximate to the parking spaces are interfaced with the server. Vehicle occupancy sensors physically proximate to the parking spaces are interfaced with the server. Parking availability indicators associated with the parking spaces are interfaced with the server. A motorist reserves a parking space. A reservation request for the parking space is accepted. The request is granted if available over any other reservations. Occupancy of the requested parking space is sensed through the nearest vehicle occupancy sensor. The motorist's or the motor vehicle's identity are verified against the reservation through the nearest smart parking device. Parking availability is indicated through the nearest parking availability indicator based upon the current time, any motor vehicle occupancy, applicable parking regulations, or any unfulfilled reservations for the parking space.
 
-&#x20; Title: SMART PARKING ASSIST SYSTEM WHICH IS ABLE TO ADJUST VEHICLE HEIGHT OF VEHICLE
+Title: SMART PARKING ASSIST SYSTEM WHICH IS ABLE TO ADJUST VEHICLE HEIGHT OF VEHICLE
 
 Abstract: Source: KR20120050272A PURPOSE: An automatic steering parking operation aid system capable of adjusting the height of a vehicle is provided to prevent the damage on the vehicle using an air suspension function for opening and closing doors of the vehicle. CONSTITUTION: An automatic steering parking operation aid system capable of adjusting the height of a vehicle includes the following: a side sensor(10) detecting the existence of a curb, and the height of the curb; a height sensor(31) sensing the height of the vehicle; and a controller(40) adjusting the height of the vehicle. The container controls an air suspension(60) based on the pressure value(32) of an air spring, the pre-saved ride height(20) of doors, and signals detected from the side sensor and the height sensor. The automatic steering parking operation aid system additionally includes a display unit(50) for displaying the current condition of the vehicle.
 
@@ -216,7 +217,7 @@ Abstract: Source: KR20120126907A PURPOSE: A smart parking assist system having p
 
 Title: The stacker (H-600) (Machine translation)
 
-Abstract: Source: CN302188812S   Machine translation: (Claim 1) 1. The name of the product of the design of the ballot box (H-600). 2. The purpose of the design products: built-in electronic equipment, machinery, wireless devices have the smart parking entrances management equipment required. 3. The design features of this design is that: the overall shape of the asymmetric design. 4. Best product design points of the design drawings for a perspective view.
+Abstract: Source: CN302188812S Machine translation: (Claim 1) 1. The name of the product of the design of the ballot box (H-600). 2. The purpose of the design products: built-in electronic equipment, machinery, wireless devices have the smart parking entrances management equipment required. 3. The design features of this design is that: the overall shape of the asymmetric design. 4. Best product design points of the design drawings for a perspective view.
 
 Title: Smart parking plot control system
 
@@ -230,47 +231,47 @@ Abstract: A "smart parking" system and method for an urban environment based on 
 Title:
 ```
 
-INTELLIGENT PARKING SPACE LOCK CONTROLLER BASED ON CAN Abstract: Source: CN202711011U   Machine translation: The utility model discloses a CAN-based smart parking lock controller includes a central processor module, CAN bus control module, motor driver module, wireless receiver module, geomagnetism detection module and power module; their structural characteristics for the CAN bus control module, motor driver module, wireless receiver module, geomagnetism detection module and power module is connected to the central processor module. The utility model by information from the CAN bus receive control motor movements, and easy to operate wireless receiving module artificial operation, parking lock function, by geomagnetic module detects parking state, but also by the utility model and motor connected to the signal line to detect the state of the parking lock, to facilitate the management of the car park.
+INTELLIGENT PARKING SPACE LOCK CONTROLLER BASED ON CAN Abstract: Source: CN202711011U Machine translation: The utility model discloses a CAN-based smart parking lock controller includes a central processor module, CAN bus control module, motor driver module, wireless receiver module, geomagnetism detection module and power module; their structural characteristics for the CAN bus control module, motor driver module, wireless receiver module, geomagnetism detection module and power module is connected to the central processor module. The utility model by information from the CAN bus receive control motor movements, and easy to operate wireless receiving module artificial operation, parking lock function, by geomagnetic module detects parking state, but also by the utility model and motor connected to the signal line to detect the state of the parking lock, to facilitate the management of the car park.
 
 Title: SURVEILLANCE VIDEO-BASED INTELLIGENT PARKING LOT MANAGEMENT SYSTEM
 
-Abstract: Source: CN102915638A   Machine translation: The invention belongs to the field of video surveillance technology, specifically for the smart parking management system based on the surveillance video. The present invention is mainly used in large indoor and outdoor parking, covered by several camera tracking vehicles within the field of view, and monitor parking spaces and to reflect individual parking spaces parking situation in real time. The present invention first by image Get module obtained camera captured the image, and then use computer vision algorithms to construct automatic detection module, and to achieve a vehicle tracking, parking space detection and license plate recognition, and through the information statistical output module will be the data mutually associated, the vehicle in the parking All data and output of the venue of the show. The present invention reduces the consumption of large car park management, human resources, while avoiding the drawbacks of existing detection techniques, the use of the surveillance video, automatic intelligent detection, thereby improving the quality of monitoring and reduce monitoring costs.
+Abstract: Source: CN102915638A Machine translation: The invention belongs to the field of video surveillance technology, specifically for the smart parking management system based on the surveillance video. The present invention is mainly used in large indoor and outdoor parking, covered by several camera tracking vehicles within the field of view, and monitor parking spaces and to reflect individual parking spaces parking situation in real time. The present invention first by image Get module obtained camera captured the image, and then use computer vision algorithms to construct automatic detection module, and to achieve a vehicle tracking, parking space detection and license plate recognition, and through the information statistical output module will be the data mutually associated, the vehicle in the parking All data and output of the venue of the show. The present invention reduces the consumption of large car park management, human resources, while avoiding the drawbacks of existing detection techniques, the use of the surveillance video, automatic intelligent detection, thereby improving the quality of monitoring and reduce monitoring costs.
 
 Title: Parking stacker (T10) (Machine translation)
 
-Abstract: Source: CN302313617S   Machine translation: (Claim 1) in this design Product Name: Parking ballot box (T10). Purposes: for smart parking. Design points is that the design of the overall shape of the product. Most can show pictures or photos of the main points of the design: the main view. 5 bottom view of the design points, omit the bottom view.
+Abstract: Source: CN302313617S Machine translation: (Claim 1) in this design Product Name: Parking ballot box (T10). Purposes: for smart parking. Design points is that the design of the overall shape of the product. Most can show pictures or photos of the main points of the design: the main view. 5 bottom view of the design points, omit the bottom view.
 
 Title: PARKING PLOT GUIDING AND REVERSE VEHICLE TRACKING METHOD FOR PARKING LOT
 
-Abstract: Source: CN102930744A   Machine translation: The present invention provides a method for parking parking guidance and to reverse car search method, which when the vehicles entering the parking lot and parking into place, the system will store the relationship of parking spaces and vehicle, the driver returns the car park. informed by the vehicle inquiries machine vehicles parked parking spaces. The present invention vehicle guidance and reverse car search function integration, wireless parking spaces detection card, wireless vehicle identification card, parking guidance screen and vehicle inquiries machine, greatly improving the smart parking management and efficiency.
+Abstract: Source: CN102930744A Machine translation: The present invention provides a method for parking parking guidance and to reverse car search method, which when the vehicles entering the parking lot and parking into place, the system will store the relationship of parking spaces and vehicle, the driver returns the car park. informed by the vehicle inquiries machine vehicles parked parking spaces. The present invention vehicle guidance and reverse car search function integration, wireless parking spaces detection card, wireless vehicle identification card, parking guidance screen and vehicle inquiries machine, greatly improving the smart parking management and efficiency.
 
 Title: INTELLIGENT PARKING SYSTEM WITH REVERSE VEHICLE LOOKUP FUNCTION
 
-Abstract: Source: CN102938216A   Machine translation: The present invention provides an equipped the reverse car search function Intelligent Parking System, including parking status indicator (1) parking space detection card (2), the vehicle identification card (3), wireless communication base station (4), the host computer (5), camera (6), vehicle inquiries machine (7) and the parking guidance screen (8). The present invention vehicle guidance and reverse car search function integration, wireless parking spaces detection card, wireless vehicle identification card, parking guidance screen and vehicle inquiries machine, greatly improving the smart parking management and efficiency.
+Abstract: Source: CN102938216A Machine translation: The present invention provides an equipped the reverse car search function Intelligent Parking System, including parking status indicator (1) parking space detection card (2), the vehicle identification card (3), wireless communication base station (4), the host computer (5), camera (6), vehicle inquiries machine (7) and the parking guidance screen (8). The present invention vehicle guidance and reverse car search function integration, wireless parking spaces detection card, wireless vehicle identification card, parking guidance screen and vehicle inquiries machine, greatly improving the smart parking management and efficiency.
 
 Title: INTELLIGENT PARKING LOCK SYSTEM
 
-Abstract: Source: CN202788114U   Machine translation: The utility model discloses a smart parking lock system, designed to provide a parking lock system does not require the owners can get off control. Comprising a signal transmitter, signal receiver, a controller and a plurality of stopper means and said blocking mechanism including a motor connected with a controller electrically connected to said controller and said signal receiver. The signal transmitter sends a wireless signal to the signal receiver. The signal receiver will receive the control signal is passed to the controller, the controller parses the blocking mechanism, the control to open or close the control signal from the setting signal source. When the owner drove off, you do not need to get off the blocking mechanism to open by the signal transmitter can control, to prevent other vehicles occupied private parking; owners drove back through the signal transmitter can control parking lock is off in the car, the vehicle can stop into parking spaces. The utility model is applicable to all private parking spaces.
+Abstract: Source: CN202788114U Machine translation: The utility model discloses a smart parking lock system, designed to provide a parking lock system does not require the owners can get off control. Comprising a signal transmitter, signal receiver, a controller and a plurality of stopper means and said blocking mechanism including a motor connected with a controller electrically connected to said controller and said signal receiver. The signal transmitter sends a wireless signal to the signal receiver. The signal receiver will receive the control signal is passed to the controller, the controller parses the blocking mechanism, the control to open or close the control signal from the setting signal source. When the owner drove off, you do not need to get off the blocking mechanism to open by the signal transmitter can control, to prevent other vehicles occupied private parking; owners drove back through the signal transmitter can control parking lock is off in the car, the vehicle can stop into parking spaces. The utility model is applicable to all private parking spaces.
 
 Title: INTELLIGENT PARKING LOT MANAGEMENT SYSTEM
 
-Abstract: Source: CN202795768U   Machine translation: The utility model discloses a smart parking management system, including the parking condition detection module, vehicle safety management module, smart charging module and the control center module, the control center module charges and parking condition detection module, vehicle safety management module and smart The module is connected. Parking seeking fast car, and charges fast and high safety factor.
+Abstract: Source: CN202795768U Machine translation: The utility model discloses a smart parking management system, including the parking condition detection module, vehicle safety management module, smart charging module and the control center module, the control center module charges and parking condition detection module, vehicle safety management module and smart The module is connected. Parking seeking fast car, and charges fast and high safety factor.
 
 Title: VEHICLE IDENTITY IDENTIFICATION SYSTEM BASED ON RFID TECHNOLOGY
 
-Abstract: Source: CN202815941U   Machine translation: The utility model discloses a vehicle identification RFID technology system, including application servers, management client-server, and communication systems, characterized in that: a RFID-based vehicle identification system includes RFID smart parking lock, RFID smart card the RFID smart Daozha, the RFID smart parking locks installed in parking spaces on the ground, the said RFID smart Daozha installed at the inlet and outlet of the garage, and the said RFID smart Daozha connected through the communications system and the application server. The simple structure, ease of installation, the distance identification system using RFID technology, the parking lock the system is locked in parking spaces, combined with the long-distance RFID reader and smart Daozha parking import and export without stopping identity systems.
+Abstract: Source: CN202815941U Machine translation: The utility model discloses a vehicle identification RFID technology system, including application servers, management client-server, and communication systems, characterized in that: a RFID-based vehicle identification system includes RFID smart parking lock, RFID smart card the RFID smart Daozha, the RFID smart parking locks installed in parking spaces on the ground, the said RFID smart Daozha installed at the inlet and outlet of the garage, and the said RFID smart Daozha connected through the communications system and the application server. The simple structure, ease of installation, the distance identification system using RFID technology, the parking lock the system is locked in parking spaces, combined with the long-distance RFID reader and smart Daozha parking import and export without stopping identity systems.
 
 Title: The Intelligent Parking meters path (Machine translation)
 
-Abstract: Source: CN302360106S   Machine translation: (Claim 1) 1. The design products Name: Road car park smart parking meters. 2. The design uses: record stop time and calculate the parking fee. 3. The design features of the design: perspective view. 4. Best to show that the design drawings or photographs of the main points: the perspective view.
+Abstract: Source: CN302360106S Machine translation: (Claim 1) 1. The design products Name: Road car park smart parking meters. 2. The design uses: record stop time and calculate the parking fee. 3. The design features of the design: perspective view. 4. Best to show that the design drawings or photographs of the main points: the perspective view.
 
 Title: Smart parking meters (Machine translation)
 
-Abstract: Source: CN302371318S   Machine translation: (Claim 1) design products name: smart parking meters; Uses: This product is a solar roadside equipment, mainly for vehicle-street parking electronic toll collection and parking management, intelligent transportation applications; 3 design point is that the the product overall shape; representatives Figure: perspective view.
+Abstract: Source: CN302371318S Machine translation: (Claim 1) design products name: smart parking meters; Uses: This product is a solar roadside equipment, mainly for vehicle-street parking electronic toll collection and parking management, intelligent transportation applications; 3 design point is that the the product overall shape; representatives Figure: perspective view.
 
 Title: NON-WAITING PARKING MANAGEMENT SYSTEM BASED ON RFID (RADIO FREQUENCY IDENTIFICATION DEVICE) AND SENSOR
 
-Abstract: Source: CN202838451U   Machine translation: The vehicle identification utility model discloses a RFID and parking sensor-based smart parking management system, which includes the vehicle identification RFID, vehicle detection sensor, and a back-end server, vehicle detection sensor through wired or wireless communication network and the backend server connection; connected via RFID wireless communication protocols between RFID and vehicle detection sensor; vehicle detection sensor and the backend server through wired or wireless network connection. Used in the process of the present utility model, can make the driver stop, and to take the car, without manual operation, to achieve the accuracy of the parking fee, automatic pay payment.
+Abstract: Source: CN202838451U Machine translation: The vehicle identification utility model discloses a RFID and parking sensor-based smart parking management system, which includes the vehicle identification RFID, vehicle detection sensor, and a back-end server, vehicle detection sensor through wired or wireless communication network and the backend server connection; connected via RFID wireless communication protocols between RFID and vehicle detection sensor; vehicle detection sensor and the backend server through wired or wireless network connection. Used in the process of the present utility model, can make the driver stop, and to take the car, without manual operation, to achieve the accuracy of the parking fee, automatic pay payment.
 
 Title: NAVIGATION DEVICE
 
