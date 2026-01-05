@@ -4,4 +4,4 @@ As part of my program leadership in GenAI in ASPICE, it was necessary to reduce 
 
 The focus was more on cost optimization strategies (e.g., reserved instances, autoscaling, workload placement) while tailoring AI and VM environments to business requirements.&#x20;
 
-<figure><img src=".gitbook/assets/multicloud.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/bosch/multicloud.png" alt=""><figcaption></figcaption></figure>
