@@ -87,7 +87,10 @@ The iCurb has a potential to provide robust channels to provide the required inf
 
 Einfache Installation bei Veranstaltungen: Skizze für die Installation des iCurbs bei Veranstaltungen. Man sieht ganz rechts eine Gateway.
 
-<figure><img src=".gitbook/assets/icurb/veranstaltung_icurb.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/icurb/Overview.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/icurb/Overview_blur1.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/icurb/Overview_blur2.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/icurb/Overview_blur2_desc.jpg" alt=""><figcaption></figcaption></figure>
 
 IKT for finding and reserving a parking place from a smart phone or an OBU: Ein Button in Autoradio iCurbs zu finden ( mögliche Industrieprojekt )
 
