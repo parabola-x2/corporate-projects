@@ -6,6 +6,6 @@ To overcome low market adoption and help customers understand the technology's b
 
 I collaborated with the product team to gather requirements and drive the technical implementation. Since the sensors used CAN bus output, we selected the cost-effective PEAK CAN adapter over premium alternatives like Vector dongles. My team built the solution using the .NET framework and C# programming language, with my responsibilities encompassing resource planning, budget management, and software release scheduling.
 
-<figure><img src=".gitbook/assets/OneCVT.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/bosch/OneCVT.png" alt=""><figcaption></figcaption></figure>
 
 C#, .NET, Python, C++
