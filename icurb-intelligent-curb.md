@@ -74,9 +74,9 @@ Ihre aktuelle Status ( Energie, Parkplatzbelegung etc. )
 
 Prototype for the charging unit.
 
-<figure><img src=".gitbook/assets/icurb/iCurb_Uebersicht_gerendert.tif" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/icurb/iCurb_Uebersicht_gerendert.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/icurb/iCurb_Elektrik-Gehaeuse_gerendert.tif" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/icurb/iCurb_Elektrik-Gehaeuse_gerendert.png" alt=""><figcaption></figcaption></figure>
 
 
 
