@@ -6,11 +6,11 @@ Pose estimation was developed using MATLAB, while ROS was employed to process LI
 
 Extreme Programming (XP) was employed as the agile methodology to facilitate continuous customer engagement throughout evolving requirements and to accelerate development through pair programming. Upon reaching an acceptable level of software maturity, responsibility for further refinement was transitioned to my counterpart, who managed a separate component of the dozer development using the SCRUM framework with three-week sprint cycles.
 
-<figure><img src=".gitbook/assets/traffic_light_2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/bosch/traffic_light_2.png" alt=""><figcaption></figcaption></figure>
 
 
 
-<figure><img src=".gitbook/assets/Autonomous Dozer.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/bosch/Autonomous Dozer.png" alt=""><figcaption></figcaption></figure>
 
 I was responsible for end to end team coordination, and requirement gathering.
 
