@@ -77,21 +77,19 @@ Prototype for the charging unit.
 
 The prototype of the charging unit involves • Upper part of the curb ◦ contains the slot for the LED ◦ contains the method to lock the upper part with the lower part of the curb. ◦ contains the possibility to mount the box containing the electrical parts. • Lower part of the curb ◦ Contains the high voltage wires to charge the cars. ◦ Contains a hole to connect the socket with the incoming wires.
 
-3 Areas of application:
+## Areas of application:
 
-```
-    3.1 Events, Parking garages, On Street
-```
+1. Events
+2. Parking garages
+3. On Street
 
 The iCurb has a potential to provide robust channels to provide the required infrastructure of charging units. The projects can be applied 1. during the organization of big events with adhoc requirement of charging units. 2. Integrate the curbs already during the construction of new parking garages.
 
-Einfache Installation bei Veranstaltungen: Skizze für die Installation des iCurbs bei Veranstaltungen. Man sieht ganz rechts eine Gateway
-
 <figure><img src=".gitbook/assets/icurb/Overview.JPG" alt=""><figcaption><p>Electric charging station</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/icurb/Overview_blur1.jpg" alt=""><figcaption><p>Blue labels denote embedded electronic units </p></figcaption></figure>
+<figure><img src=".gitbook/assets/icurb/Overview_blur1.jpg" alt=""><figcaption><p>Blue labels denote embedded electronic units</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/icurb/Overview_blur2_desc.jpg" alt=""><figcaption><p>Red dotted line denotes communication with the charging unit</p></figcaption></figure>
+<figure><img src=".gitbook/assets/icurb/Overview_blur2_desc.jpg" alt=""><figcaption><p>Red dotted line denotes communication with the charging unit. The gateway communication happens through Zigbee protocol</p></figcaption></figure>
 
 IKT for finding and reserving a parking place from a smart phone or an OBU: Ein Button in Autoradio iCurbs zu finden ( mögliche Industrieprojekt )
 
@@ -104,4 +102,3 @@ Das Smart Auto lädt über iCurb
 LED Laufschrift um zu erkennen wie viele Parkplätze noch frei sind:
 
 <figure><img src=".gitbook/assets/icurb/ledlaufschrit.JPG" alt=""><figcaption></figcaption></figure>
-
